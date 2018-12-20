@@ -9,10 +9,7 @@
 function drupalup_form_system_theme_settings_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id = NULL){
     // make sure the form id is not null (empyt)
     // isset() to check if a variable is set to null
-    if(isset($form_id)){
-        return;
-    }
-
+    if(isset($form_id)){ return;}
     $form['dog_name'] = [
         '#type' => 'textfield',
         '#title' => t('doggie name'),
