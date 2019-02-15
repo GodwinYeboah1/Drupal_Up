@@ -13,7 +13,7 @@ function drupalup_form_system_theme_settings_alter(&$form, \Drupal\Core\Form\For
     $form['dog_name'] = [
         '#type' => 'textfield',
         '#title' => t('doggie name'),
-        '#default_value' => theme_get_setting(''),
+        '#default_value' => theme_get_setting(' '),
         '#description' => t('Our cute doggie name here'),
     ];
 }

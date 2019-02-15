@@ -16,6 +16,7 @@ class ComposerStaticInitDrupal8
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'e40631d46120a9c38ea139981f8dab26' => __DIR__ . '/..' . '/ircmaxell/password-compat/lib/password.php',
+        '3917c79c5052b270641b5a200963dbc2' => __DIR__ . '/..' . '/kint-php/kint/init.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
     );
 
@@ -72,6 +73,10 @@ class ComposerStaticInitDrupal8
         'M' => 
         array (
             'Masterminds\\' => 12,
+        ),
+        'K' => 
+        array (
+            'Kint\\' => 5,
         ),
         'G' => 
         array (
@@ -268,6 +273,10 @@ class ComposerStaticInitDrupal8
         'Masterminds\\' => 
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
+        ),
+        'Kint\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kint-php/kint/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (

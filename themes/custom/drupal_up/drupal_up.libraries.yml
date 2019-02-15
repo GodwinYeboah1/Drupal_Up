@@ -1,0 +1,6 @@
+materialize:
+  css:
+    theme:
+      assets/materialize/css/materialize.min.css: {}
+  js:
+    assets/materialize/js/materialize.min.js: {}
